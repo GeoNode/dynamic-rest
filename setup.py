@@ -10,7 +10,7 @@ setup(
     description=DESCRIPTION,
     include_package_data=True,
     install_requires=open('install_requires.txt').readlines(),
-    long_description="README.md",
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     name=NAME,
     packages=find_packages(),

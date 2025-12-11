@@ -1,16 +1,17 @@
 from setuptools import find_packages, setup
 
-NAME = 'dynamic-rest'
+NAME = 'geonode-dynamic-rest'
 DESCRIPTION = 'Dynamic API support to Django REST Framework.'
-URL = 'http://github.com/AltSchool/dynamic-rest'
-VERSION = '2.3.0'
+URL = 'https://github.com/GeoNode/dynamic-rest'
+VERSION = '2.3.0.1'
 SCRIPTS = ['manage.py']
 
 setup(
     description=DESCRIPTION,
     include_package_data=True,
     install_requires=open('install_requires.txt').readlines(),
-    long_description=open('README.rst').read(),
+    long_description="README.md",
+    long_description_content_type="text/markdown",
     name=NAME,
     packages=find_packages(),
     scripts=SCRIPTS,

@@ -1,9 +1,9 @@
 from setuptools import find_packages, setup
 
-NAME = 'dynamic-rest'
+NAME = 'geonode-dynamic-rest'
 DESCRIPTION = 'Dynamic API support to Django REST Framework.'
 URL = 'https://github.com/GeoNode/dynamic-rest'
-VERSION = '2.3.0'
+VERSION = '2.3.0.2'
 SCRIPTS = ['manage.py']
 
 setup(
